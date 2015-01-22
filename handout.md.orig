@@ -144,11 +144,19 @@ git config --global alias.wdiff 'diff --word-diff'
 git config --global alias.who 'shortlog -s -e --'
 ```
 =======
-# My Notes Here
+My Notes Here
+Create a new repository
+## COMMANDS TO CREATE A REPOSITORY
+echo # lab2 >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Tejkarthik/lab2.git
+git push -u origin master
 
-#A) WORKING LOCALLY:
+## Basic Git commands
 
-GIT does not have merge or diff tools.
-Use p4merge for merge and diff.
-Use atom as editor
->>>>>>> working locally
+1. Git Init
+1. Git Add .
+3. Git commit -m "lab2"
+>>>>>>> Handout.md
